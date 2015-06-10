@@ -1,0 +1,779 @@
+2720 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:host.name=gggopi-HP-Pavilion-g6-NoteBook-PC
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.version=1.7.0_65
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.vendor=Oracle Corporation
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.class.path=/home/gggopi/apache-storm-0.9.5/lib/math.numeric-tower-0.0.1.jar:/home/gggopi/apache-storm-0.9.5/lib/clj-stacktrace-0.2.2.jar:/home/gggopi/apache-storm-0.9.5/lib/json-simple-1.1.jar:/home/gggopi/apache-storm-0.9.5/lib/snakeyaml-1.11.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-io-2.4.jar:/home/gggopi/apache-storm-0.9.5/lib/log4j-over-slf4j-1.6.6.jar:/home/gggopi/apache-storm-0.9.5/lib/hiccup-0.3.6.jar:/home/gggopi/apache-storm-0.9.5/lib/clout-1.0.1.jar:/home/gggopi/apache-storm-0.9.5/lib/tools.macro-0.1.0.jar:/home/gggopi/apache-storm-0.9.5/lib/ring-jetty-adapter-0.3.11.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-lang-2.5.jar:/home/gggopi/apache-storm-0.9.5/lib/kryo-2.21.jar:/home/gggopi/apache-storm-0.9.5/lib/tools.cli-0.2.4.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-exec-1.1.jar:/home/gggopi/apache-storm-0.9.5/lib/reflectasm-1.07-shaded.jar:/home/gggopi/apache-storm-0.9.5/lib/logback-core-1.0.13.jar:/home/gggopi/apache-storm-0.9.5/lib/core.incubator-0.1.0.jar:/home/gggopi/apache-storm-0.9.5/lib/jgrapht-core-0.9.0.jar:/home/gggopi/apache-storm-0.9.5/lib/joda-time-2.0.jar:/home/gggopi/apache-storm-0.9.5/lib/servlet-api-2.5.jar:/home/gggopi/apache-storm-0.9.5/lib/compojure-1.1.3.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-fileupload-1.2.1.jar:/home/gggopi/apache-storm-0.9.5/lib/chill-java-0.3.5.jar:/home/gggopi/apache-storm-0.9.5/lib/ring-core-1.1.5.jar:/home/gggopi/apache-storm-0.9.5/lib/ring-servlet-0.3.11.jar:/home/gggopi/apache-storm-0.9.5/lib/objenesis-1.2.jar:/home/gggopi/apache-storm-0.9.5/lib/ring-devel-0.3.11.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-codec-1.6.jar:/home/gggopi/apache-storm-0.9.5/lib/jline-2.11.jar:/home/gggopi/apache-storm-0.9.5/lib/logback-classic-1.0.13.jar:/home/gggopi/apache-storm-0.9.5/lib/clojure-1.5.1.jar:/home/gggopi/apache-storm-0.9.5/lib/minlog-1.2.jar:/home/gggopi/apache-storm-0.9.5/lib/carbonite-1.4.0.jar:/home/gggopi/apache-storm-0.9.5/lib/jetty-util-6.1.26.jar:/home/gggopi/apache-storm-0.9.5/lib/tools.logging-0.2.3.jar:/home/gggopi/apache-storm-0.9.5/lib/clj-time-0.4.1.jar:/home/gggopi/apache-storm-0.9.5/lib/asm-4.0.jar:/home/gggopi/apache-storm-0.9.5/lib/disruptor-2.10.1.jar:/home/gggopi/apache-storm-0.9.5/lib/jetty-6.1.26.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-logging-1.1.3.jar:/home/gggopi/apache-storm-0.9.5/lib/storm-core-0.9.5.jar:/home/gggopi/apache-storm-0.9.5/lib/slf4j-api-1.7.5.jar:./target/myProj-1.0-SNAPSHOT.jar:/home/gggopi/apache-storm-0.9.5/conf:/home/gggopi/apache-storm-0.9.5/bin
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.library.path=/usr/local/lib:/opt/local/lib:/usr/lib
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.io.tmpdir=/tmp
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:java.compiler=<NA>
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:os.name=Linux
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:os.arch=amd64
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:os.version=3.13.0-45-generic
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:user.name=gggopi
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:user.home=/home/gggopi
+2723 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Client environment:user.dir=/home/gggopi/apache-storm-0.9.5/examples/untitled
+2732 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:zookeeper.version=3.4.6-1569965, built on 02/20/2014 09:09 GMT
+2732 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:host.name=gggopi-HP-Pavilion-g6-NoteBook-PC
+2732 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.version=1.7.0_65
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.vendor=Oracle Corporation
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.class.path=/home/gggopi/apache-storm-0.9.5/lib/math.numeric-tower-0.0.1.jar:/home/gggopi/apache-storm-0.9.5/lib/clj-stacktrace-0.2.2.jar:/home/gggopi/apache-storm-0.9.5/lib/json-simple-1.1.jar:/home/gggopi/apache-storm-0.9.5/lib/snakeyaml-1.11.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-io-2.4.jar:/home/gggopi/apache-storm-0.9.5/lib/log4j-over-slf4j-1.6.6.jar:/home/gggopi/apache-storm-0.9.5/lib/hiccup-0.3.6.jar:/home/gggopi/apache-storm-0.9.5/lib/clout-1.0.1.jar:/home/gggopi/apache-storm-0.9.5/lib/tools.macro-0.1.0.jar:/home/gggopi/apache-storm-0.9.5/lib/ring-jetty-adapter-0.3.11.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-lang-2.5.jar:/home/gggopi/apache-storm-0.9.5/lib/kryo-2.21.jar:/home/gggopi/apache-storm-0.9.5/lib/tools.cli-0.2.4.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-exec-1.1.jar:/home/gggopi/apache-storm-0.9.5/lib/reflectasm-1.07-shaded.jar:/home/gggopi/apache-storm-0.9.5/lib/logback-core-1.0.13.jar:/home/gggopi/apache-storm-0.9.5/lib/core.incubator-0.1.0.jar:/home/gggopi/apache-storm-0.9.5/lib/jgrapht-core-0.9.0.jar:/home/gggopi/apache-storm-0.9.5/lib/joda-time-2.0.jar:/home/gggopi/apache-storm-0.9.5/lib/servlet-api-2.5.jar:/home/gggopi/apache-storm-0.9.5/lib/compojure-1.1.3.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-fileupload-1.2.1.jar:/home/gggopi/apache-storm-0.9.5/lib/chill-java-0.3.5.jar:/home/gggopi/apache-storm-0.9.5/lib/ring-core-1.1.5.jar:/home/gggopi/apache-storm-0.9.5/lib/ring-servlet-0.3.11.jar:/home/gggopi/apache-storm-0.9.5/lib/objenesis-1.2.jar:/home/gggopi/apache-storm-0.9.5/lib/ring-devel-0.3.11.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-codec-1.6.jar:/home/gggopi/apache-storm-0.9.5/lib/jline-2.11.jar:/home/gggopi/apache-storm-0.9.5/lib/logback-classic-1.0.13.jar:/home/gggopi/apache-storm-0.9.5/lib/clojure-1.5.1.jar:/home/gggopi/apache-storm-0.9.5/lib/minlog-1.2.jar:/home/gggopi/apache-storm-0.9.5/lib/carbonite-1.4.0.jar:/home/gggopi/apache-storm-0.9.5/lib/jetty-util-6.1.26.jar:/home/gggopi/apache-storm-0.9.5/lib/tools.logging-0.2.3.jar:/home/gggopi/apache-storm-0.9.5/lib/clj-time-0.4.1.jar:/home/gggopi/apache-storm-0.9.5/lib/asm-4.0.jar:/home/gggopi/apache-storm-0.9.5/lib/disruptor-2.10.1.jar:/home/gggopi/apache-storm-0.9.5/lib/jetty-6.1.26.jar:/home/gggopi/apache-storm-0.9.5/lib/commons-logging-1.1.3.jar:/home/gggopi/apache-storm-0.9.5/lib/storm-core-0.9.5.jar:/home/gggopi/apache-storm-0.9.5/lib/slf4j-api-1.7.5.jar:./target/myProj-1.0-SNAPSHOT.jar:/home/gggopi/apache-storm-0.9.5/conf:/home/gggopi/apache-storm-0.9.5/bin
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.library.path=/usr/local/lib:/opt/local/lib:/usr/lib
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.io.tmpdir=/tmp
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:java.compiler=<NA>
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:os.name=Linux
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:os.arch=amd64
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:os.version=3.13.0-45-generic
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:user.name=gggopi
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:user.home=/home/gggopi
+2733 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Server environment:user.dir=/home/gggopi/apache-storm-0.9.5/examples/untitled
+3159 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Created server with tickTime 2000 minSessionTimeout 4000 maxSessionTimeout 40000 datadir /tmp/6acb520d-d612-432c-acb6-ae99d35731e7/version-2 snapdir /tmp/6acb520d-d612-432c-acb6-ae99d35731e7/version-2
+3166 [main] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - binding to port 0.0.0.0/0.0.0.0:2000
+3171 [main] INFO  backtype.storm.zookeeper - Starting inprocess zookeeper at port 2000 and dir /tmp/6acb520d-d612-432c-acb6-ae99d35731e7
+3365 [main] INFO  backtype.storm.daemon.nimbus - Starting Nimbus with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/tmp/bd06ac69-8a5c-4677-8c20-26f2039638fa", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "10.0.2.15", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2000, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" [6700 6701], "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+3369 [main] INFO  backtype.storm.daemon.nimbus - Using default scheduler
+3377 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+3447 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+3450 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@4007fe31
+3462 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+3465 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+3465 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46493
+3472 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46493
+3475 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.persistence.FileTxnLog - Creating new log file: log.1
+3531 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae8940000 with negotiated timeout 20000 for client /127.0.0.1:46493
+3531 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae8940000, negotiated timeout = 20000
+3535 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+3537 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+4591 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae8940000
+4597 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae8940000 closed
+4597 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+4598 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46493 which had sessionid 0x14ddd5ae8940000
+4599 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4600 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4600 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@b91443a
+4602 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+4602 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+4602 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46494
+4603 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46494
+4608 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae8940001 with negotiated timeout 20000 for client /127.0.0.1:46494
+4609 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae8940001, negotiated timeout = 20000
+4609 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4688 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4689 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4689 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@e4bdddc
+4690 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+4691 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+4691 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46495
+4691 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46495
+4697 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae8940002 with negotiated timeout 20000 for client /127.0.0.1:46495
+4697 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae8940002, negotiated timeout = 20000
+4697 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4698 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+4704 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae8940002
+4708 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+4708 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae8940002 closed
+4708 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46495 which had sessionid 0x14ddd5ae8940002
+4709 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4710 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4710 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@24d7aac3
+4711 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+4712 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+4713 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4713 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46496
+4713 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46496
+4714 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4715 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@35677c16
+4716 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+4716 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+4716 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46497
+4717 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46497
+4719 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae8940003 with negotiated timeout 20000 for client /127.0.0.1:46496
+4719 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae8940003, negotiated timeout = 20000
+4720 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4730 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae8940004 with negotiated timeout 20000 for client /127.0.0.1:46497
+4730 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae8940004, negotiated timeout = 20000
+4731 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4731 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+4734 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae8940004
+4741 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae8940004 closed
+4741 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+4742 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4742 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46497 which had sessionid 0x14ddd5ae8940004
+4743 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4743 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@775d3119
+4744 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+4745 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+4745 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46498
+4746 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46498
+4753 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae8940005 with negotiated timeout 20000 for client /127.0.0.1:46498
+4753 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae8940005, negotiated timeout = 20000
+4754 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4786 [main] INFO  backtype.storm.daemon.supervisor - Starting Supervisor with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/tmp/819fdb60-1cfa-4d23-8ae3-1cc6382a6029", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "10.0.2.15", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2000, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1024 1025 1026), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+4798 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4799 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4799 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@655a5675
+4800 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+4800 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+4801 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46499
+4801 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46499
+4808 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae8940006 with negotiated timeout 20000 for client /127.0.0.1:46499
+4808 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae8940006, negotiated timeout = 20000
+4809 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4809 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+4812 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae8940006
+4819 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae8940006 closed
+4819 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+4819 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46499 which had sessionid 0x14ddd5ae8940006
+4821 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4822 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4823 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@63faa2ae
+4824 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+4824 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+4824 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46500
+4825 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46500
+4830 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae8940007 with negotiated timeout 20000 for client /127.0.0.1:46500
+4831 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae8940007, negotiated timeout = 20000
+4831 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4875 [main] INFO  backtype.storm.daemon.supervisor - Starting supervisor with id 7d8ad02c-01a4-430c-b226-2f0ac82b6fa3 at host gggopi-HP-Pavilion-g6-NoteBook-PC
+4881 [main] INFO  backtype.storm.daemon.supervisor - Starting Supervisor with conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/tmp/5a411017-51ba-481c-bcc9-2b3b13d2adb8", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "10.0.2.15", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2000, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1027 1028 1029), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+4883 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+4883 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+4884 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@7d8d75f3
+4884 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+4885 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46501
+4885 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+4885 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46501
+4897 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae8940008 with negotiated timeout 20000 for client /127.0.0.1:46501
+4897 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae8940008, negotiated timeout = 20000
+4897 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+4897 [main-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+5900 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae8940008
+5908 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae8940008 closed
+5908 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+5908 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46501 which had sessionid 0x14ddd5ae8940008
+5908 [main] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+5909 [main] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+5910 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@130f7b39
+5911 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+5912 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+5912 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46502
+5912 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46502
+5920 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae8940009 with negotiated timeout 20000 for client /127.0.0.1:46502
+5920 [main-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae8940009, negotiated timeout = 20000
+5920 [main-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+5942 [main] INFO  backtype.storm.daemon.supervisor - Starting supervisor with id fc00918a-7f61-473d-93c1-1e8653e0f874 at host gggopi-HP-Pavilion-g6-NoteBook-PC
+6033 [main] INFO  backtype.storm.daemon.nimbus - Received topology submission for wordcount with conf {"topology.acker.executors" nil, "topology.kryo.register" nil, "topology.kryo.decorators" (), "topology.name" "wordcount", "storm.id" "wordcount-1-1433937834", "topology.max.task.parallelism" 1, "topology.workers" 1, "topology.debug" true}
+6082 [main] INFO  backtype.storm.daemon.nimbus - Activating wordcount: wordcount-1-1433937834
+6186 [main] INFO  backtype.storm.scheduler.EvenScheduler - Available slots: (["fc00918a-7f61-473d-93c1-1e8653e0f874" 1027] ["fc00918a-7f61-473d-93c1-1e8653e0f874" 1028] ["fc00918a-7f61-473d-93c1-1e8653e0f874" 1029] ["7d8ad02c-01a4-430c-b226-2f0ac82b6fa3" 1024] ["7d8ad02c-01a4-430c-b226-2f0ac82b6fa3" 1025] ["7d8ad02c-01a4-430c-b226-2f0ac82b6fa3" 1026])
+6226 [main] INFO  backtype.storm.daemon.nimbus - Setting new assignment for topology id wordcount-1-1433937834: #backtype.storm.daemon.common.Assignment{:master-code-dir "/tmp/bd06ac69-8a5c-4677-8c20-26f2039638fa/nimbus/stormdist/wordcount-1-1433937834", :node->host {"fc00918a-7f61-473d-93c1-1e8653e0f874" "gggopi-HP-Pavilion-g6-NoteBook-PC"}, :executor->node+port {[3 3] ["fc00918a-7f61-473d-93c1-1e8653e0f874" 1027], [2 2] ["fc00918a-7f61-473d-93c1-1e8653e0f874" 1027], [1 1] ["fc00918a-7f61-473d-93c1-1e8653e0f874" 1027], [4 4] ["fc00918a-7f61-473d-93c1-1e8653e0f874" 1027]}, :executor->start-time-secs {[4 4] 1433937835, [3 3] 1433937835, [2 2] 1433937835, [1 1] 1433937835}}
+7252 [Thread-5] INFO  backtype.storm.daemon.supervisor - Extracting resources from jar at ./target/myProj-1.0-SNAPSHOT.jar to /tmp/5a411017-51ba-481c-bcc9-2b3b13d2adb8/supervisor/stormdist/wordcount-1-1433937834/resources
+7286 [Thread-6] INFO  backtype.storm.daemon.supervisor - Launching worker with assignment #backtype.storm.daemon.supervisor.LocalAssignment{:storm-id "wordcount-1-1433937834", :executors ([3 3] [2 2] [1 1] [4 4])} for this supervisor fc00918a-7f61-473d-93c1-1e8653e0f874 on port 1027 with id 58885bef-8566-4c47-aa4a-a0213a5d6e03
+7289 [Thread-6] INFO  backtype.storm.daemon.worker - Launching worker for wordcount-1-1433937834 on fc00918a-7f61-473d-93c1-1e8653e0f874:1027 with id 58885bef-8566-4c47-aa4a-a0213a5d6e03 and conf {"dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/tmp/5a411017-51ba-481c-bcc9-2b3b13d2adb8", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "10.0.2.15", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2000, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1027 1028 1029), "topology.environment" nil, "topology.debug" false, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" nil, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+7289 [Thread-6] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+7289 [Thread-6] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+7290 [Thread-6] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000 sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@4eaf7d77
+7290 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+7290 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+7290 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46503
+7291 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46503
+7297 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae894000a with negotiated timeout 20000 for client /127.0.0.1:46503
+7297 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae894000a, negotiated timeout = 20000
+7297 [Thread-6-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+7297 [Thread-6-EventThread] INFO  backtype.storm.zookeeper - Zookeeper state update: :connected:none
+7298 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae894000a
+7308 [Thread-6] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae894000a closed
+7308 [Thread-6-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+7308 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46503 which had sessionid 0x14ddd5ae894000a
+7308 [Thread-6] INFO  backtype.storm.utils.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [1000] the maxSleepTimeMs [30000] the maxRetries [5]
+7308 [Thread-6] INFO  org.apache.storm.curator.framework.imps.CuratorFrameworkImpl - Starting
+7309 [Thread-6] INFO  org.apache.storm.zookeeper.ZooKeeper - Initiating client connection, connectString=localhost:2000/storm sessionTimeout=20000 watcher=org.apache.storm.curator.ConnectionState@31a089a6
+7310 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Opening socket connection to server localhost/127.0.0.1:2000. Will not attempt to authenticate using SASL (unknown error)
+7310 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Accepted socket connection from /127.0.0.1:46504
+7310 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Socket connection established to localhost/127.0.0.1:2000, initiating session
+7311 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Client attempting to establish new session at /127.0.0.1:46504
+7319 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - Established session 0x14ddd5ae894000b with negotiated timeout 20000 for client /127.0.0.1:46504
+7319 [Thread-6-SendThread(localhost:2000)] INFO  org.apache.storm.zookeeper.ClientCnxn - Session establishment complete on server localhost/127.0.0.1:2000, sessionid = 0x14ddd5ae894000b, negotiated timeout = 20000
+7319 [Thread-6-EventThread] INFO  org.apache.storm.curator.framework.state.ConnectionStateManager - State change: CONNECTED
+7327 [Thread-6] INFO  backtype.storm.daemon.worker - Reading Assignments.
+7378 [Thread-6] INFO  backtype.storm.daemon.worker - Launching receive-thread for fc00918a-7f61-473d-93c1-1e8653e0f874:1027
+7383 [Thread-7-worker-receiver-thread-0] INFO  backtype.storm.messaging.loader - Starting receive-thread: [stormId: wordcount-1-1433937834, port: 1027, thread-id: 0 ]
+7736 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor count:[2 2]
+7747 [Thread-6] INFO  backtype.storm.daemon.task - Emitting: count __system ["startup"]
+7747 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks count:[2 2]
+7757 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor count:[2 2]
+7772 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor split:[3 3]
+7778 [Thread-6] INFO  backtype.storm.daemon.task - Emitting: split __system ["startup"]
+7778 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks split:[3 3]
+7784 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor split:[3 3]
+7796 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor spout:[4 4]
+7801 [Thread-6] INFO  backtype.storm.daemon.task - Emitting: spout __system ["startup"]
+7802 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks spout:[4 4]
+7810 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor spout:[4 4]
+7821 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor __system:[-1 -1]
+7822 [Thread-6] INFO  backtype.storm.daemon.task - Emitting: __system __system ["startup"]
+7823 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks __system:[-1 -1]
+7825 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor __system:[-1 -1]
+7841 [Thread-6] INFO  backtype.storm.daemon.executor - Loading executor __acker:[1 1]
+7842 [Thread-6] INFO  backtype.storm.daemon.task - Emitting: __acker __system ["startup"]
+7842 [Thread-6] INFO  backtype.storm.daemon.executor - Loaded executor tasks __acker:[1 1]
+7849 [Thread-6] INFO  backtype.storm.daemon.executor - Timeouts disabled for executor __acker:[1 1]
+7850 [Thread-6] INFO  backtype.storm.daemon.executor - Finished loading executor __acker:[1 1]
+7857 [Thread-6] INFO  backtype.storm.daemon.worker - Worker has topology config {"storm.id" "wordcount-1-1433937834", "dev.zookeeper.path" "/tmp/dev-storm-zookeeper", "topology.tick.tuple.freq.secs" nil, "topology.builtin.metrics.bucket.size.secs" 60, "topology.fall.back.on.java.serialization" true, "topology.max.error.report.per.interval" 5, "zmq.linger.millis" 0, "topology.skip.missing.kryo.registrations" true, "storm.messaging.netty.client_worker_threads" 1, "ui.childopts" "-Xmx768m", "storm.zookeeper.session.timeout" 20000, "nimbus.reassign" true, "topology.trident.batch.emit.interval.millis" 50, "storm.messaging.netty.flush.check.interval.ms" 10, "nimbus.monitor.freq.secs" 10, "logviewer.childopts" "-Xmx128m", "java.library.path" "/usr/local/lib:/opt/local/lib:/usr/lib", "topology.executor.send.buffer.size" 1024, "storm.local.dir" "/tmp/5a411017-51ba-481c-bcc9-2b3b13d2adb8", "storm.messaging.netty.buffer_size" 5242880, "supervisor.worker.start.timeout.secs" 120, "topology.enable.message.timeouts" true, "nimbus.cleanup.inbox.freq.secs" 600, "nimbus.inbox.jar.expiration.secs" 3600, "drpc.worker.threads" 64, "storm.meta.serialization.delegate" "backtype.storm.serialization.DefaultSerializationDelegate", "topology.worker.shared.thread.pool.size" 4, "nimbus.host" "10.0.2.15", "storm.messaging.netty.min_wait_ms" 100, "storm.zookeeper.port" 2000, "transactional.zookeeper.port" nil, "topology.executor.receive.buffer.size" 1024, "transactional.zookeeper.servers" nil, "storm.zookeeper.root" "/storm", "storm.zookeeper.retry.intervalceiling.millis" 30000, "supervisor.enable" true, "storm.messaging.netty.server_worker_threads" 1, "storm.zookeeper.servers" ["localhost"], "transactional.zookeeper.root" "/transactional", "topology.acker.executors" nil, "topology.kryo.decorators" (), "topology.name" "wordcount", "topology.transfer.buffer.size" 1024, "topology.worker.childopts" nil, "drpc.queue.size" 128, "worker.childopts" "-Xmx768m", "supervisor.heartbeat.frequency.secs" 5, "topology.error.throttle.interval.secs" 10, "zmq.hwm" 0, "drpc.port" 3772, "supervisor.monitor.frequency.secs" 3, "drpc.childopts" "-Xmx768m", "topology.receiver.buffer.size" 8, "task.heartbeat.frequency.secs" 3, "topology.tasks" nil, "storm.messaging.netty.max_retries" 300, "topology.spout.wait.strategy" "backtype.storm.spout.SleepSpoutWaitStrategy", "nimbus.thrift.max_buffer_size" 1048576, "topology.max.spout.pending" nil, "storm.zookeeper.retry.interval" 1000, "topology.sleep.spout.wait.strategy.time.ms" 1, "nimbus.topology.validator" "backtype.storm.nimbus.DefaultTopologyValidator", "supervisor.slots.ports" (1027 1028 1029), "topology.environment" nil, "topology.debug" true, "nimbus.task.launch.secs" 120, "nimbus.supervisor.timeout.secs" 60, "topology.kryo.register" nil, "topology.message.timeout.secs" 30, "task.refresh.poll.secs" 10, "topology.workers" 1, "supervisor.childopts" "-Xmx256m", "nimbus.thrift.port" 6627, "topology.stats.sample.rate" 0.05, "worker.heartbeat.frequency.secs" 1, "topology.tuple.serializer" "backtype.storm.serialization.types.ListDelegateSerializer", "topology.disruptor.wait.strategy" "com.lmax.disruptor.BlockingWaitStrategy", "topology.multilang.serializer" "backtype.storm.multilang.JsonSerializer", "nimbus.task.timeout.secs" 30, "storm.zookeeper.connection.timeout" 15000, "topology.kryo.factory" "backtype.storm.serialization.DefaultKryoFactory", "drpc.invocations.port" 3773, "logviewer.port" 8000, "zmq.threads" 1, "storm.zookeeper.retry.times" 5, "topology.worker.receiver.thread.count" 1, "storm.thrift.transport" "backtype.storm.security.auth.SimpleTransportPlugin", "topology.state.synchronization.timeout.secs" 60, "supervisor.worker.timeout.secs" 30, "nimbus.file.copy.expiration.secs" 600, "storm.messaging.transport" "backtype.storm.messaging.netty.Context", "logviewer.appender.name" "A1", "storm.messaging.netty.max_wait_ms" 1000, "drpc.request.timeout.secs" 600, "storm.local.mode.zmq" false, "ui.port" 8080, "nimbus.childopts" "-Xmx1024m", "storm.cluster.mode" "local", "topology.max.task.parallelism" 1, "storm.messaging.netty.transfer.batch.size" 262144, "topology.classpath" nil}
+7857 [Thread-6] INFO  backtype.storm.daemon.worker - Worker 58885bef-8566-4c47-aa4a-a0213a5d6e03 for storm wordcount-1-1433937834 on fc00918a-7f61-473d-93c1-1e8653e0f874:1027 has finished loading
+8356 [refresh-active-timer] INFO  backtype.storm.daemon.worker - All connections are ready for worker fc00918a-7f61-473d-93c1-1e8653e0f874:1027 with id 58885bef-8566-4c47-aa4a-a0213a5d6e03
+8393 [Thread-11-split] INFO  backtype.storm.daemon.executor - Preparing bolt split:(3)
+8401 [Thread-11-split] INFO  backtype.storm.utils.ShellProcess - Storm multilang serializer: backtype.storm.multilang.JsonSerializer
+8411 [Thread-13-spout] INFO  backtype.storm.daemon.executor - Opening spout spout:(4)
+8414 [Thread-13-spout] INFO  backtype.storm.daemon.executor - Opened spout spout:(4)
+8417 [Thread-13-spout] INFO  backtype.storm.daemon.executor - Activating spout spout:(4)
+8426 [Thread-15-__system] INFO  backtype.storm.daemon.executor - Preparing bolt __system:(-1)
+8430 [Thread-15-__system] INFO  backtype.storm.daemon.executor - Prepared bolt __system:(-1)
+8440 [Thread-11-split] INFO  backtype.storm.task.ShellBolt - Launched subprocess with pid 5971
+8444 [Thread-11-split] INFO  backtype.storm.task.ShellBolt - Start checking heartbeat...
+8444 [Thread-11-split] INFO  backtype.storm.daemon.executor - Prepared bolt split:(3)
+8451 [Thread-17-__acker] INFO  backtype.storm.daemon.executor - Preparing bolt __acker:(1)
+8452 [Thread-17-__acker] INFO  backtype.storm.daemon.executor - Prepared bolt __acker:(1)
+8458 [Thread-9-count] INFO  backtype.storm.daemon.executor - Preparing bolt count:(2)
+8458 [Thread-9-count] INFO  backtype.storm.daemon.executor - Prepared bolt count:(2)
+8519 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+8521 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+8523 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["four"]
+8524 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["four"]
+four 1
+8525 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["score"]
+8525 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [four, 1]
+8525 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["score"]
+score 1
+8525 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [score, 1]
+8526 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["and"]
+8526 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["and"]
+and 1
+8526 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [and, 1]
+8526 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["seven"]
+8527 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["seven"]
+seven 1
+8527 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [seven, 1]
+8527 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["years"]
+8528 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["years"]
+years 1
+8528 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [years, 1]
+8529 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["ago"]
+8529 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["ago"]
+ago 1
+8529 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [ago, 1]
+8620 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+8621 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+8623 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["i"]
+8623 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["i"]
+i 1
+8624 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [i, 1]
+8624 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["am"]
+8625 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["am"]
+am 1
+8625 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [am, 1]
+8625 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["at"]
+8626 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["two"]
+8627 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["with"]
+8629 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["nature"]
+8632 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["at"]
+at 1
+8632 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [at, 1]
+8632 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["two"]
+two 1
+8632 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [two, 1]
+8632 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["with"]
+with 1
+8633 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [with, 1]
+8633 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["nature"]
+nature 1
+8633 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [nature, 1]
+8721 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+8722 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+8724 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["four"]
+8724 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["four"]
+four 2
+8725 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [four, 2]
+8725 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["score"]
+8726 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["and"]
+8728 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["score"]
+score 2
+8728 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [score, 2]
+8730 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["and"]
+and 2
+8731 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [and, 2]
+8731 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["seven"]
+8731 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["seven"]
+seven 2
+8732 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [seven, 2]
+8732 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["years"]
+8733 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["years"]
+years 2
+8733 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["ago"]
+8733 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [years, 2]
+8734 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["ago"]
+ago 2
+8734 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [ago, 2]
+8822 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [an apple a day keeps the doctor away]
+8823 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [an apple a day keeps the doctor away]
+8824 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["an"]
+8825 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["an"]
+an 1
+8825 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [an, 1]
+8826 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["apple"]
+8827 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["apple"]
+apple 1
+8827 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [apple, 1]
+8828 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["a"]
+8829 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["a"]
+a 1
+8829 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [a, 1]
+8829 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["day"]
+8830 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["day"]
+day 1
+8831 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [day, 1]
+8831 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["keeps"]
+8832 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["keeps"]
+keeps 1
+8832 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [keeps, 1]
+8833 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["the"]
+8834 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["the"]
+the 1
+8835 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [the, 1]
+8835 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["doctor"]
+8835 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["doctor"]
+doctor 1
+8835 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [doctor, 1]
+8835 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["away"]
+8836 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["away"]
+away 1
+8836 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [away, 1]
+8923 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+8923 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+8924 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["the"]
+8925 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["the"]
+the 2
+8925 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [the, 2]
+8925 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["cow"]
+8926 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["cow"]
+cow 1
+8926 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [cow, 1]
+8926 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["jumped"]
+8927 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["jumped"]
+jumped 1
+8927 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["over"]
+8927 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [jumped, 1]
+8928 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["over"]
+over 1
+8928 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["the"]
+8928 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [over, 1]
+8928 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["the"]
+the 3
+8928 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["moon"]
+8929 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [the, 3]
+8930 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["moon"]
+moon 1
+8930 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [moon, 1]
+9023 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [an apple a day keeps the doctor away]
+9024 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [an apple a day keeps the doctor away]
+9026 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["an"]
+9026 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["an"]
+an 2
+9027 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [an, 2]
+9027 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["apple"]
+9027 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["apple"]
+apple 2
+9028 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [apple, 2]
+9028 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["a"]
+9028 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["a"]
+a 2
+9029 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [a, 2]
+9029 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["day"]
+9029 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["day"]
+day 2
+9030 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["keeps"]
+9030 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [day, 2]
+9030 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["keeps"]
+keeps 2
+9031 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["the"]
+9031 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [keeps, 2]
+9032 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["the"]
+the 4
+9032 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["doctor"]
+9032 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [the, 4]
+9032 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["doctor"]
+doctor 2
+9033 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [doctor, 2]
+9033 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["away"]
+9034 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["away"]
+away 2
+9034 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [away, 2]
+9124 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+9125 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+9126 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["the"]
+9127 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["the"]
+the 5
+9127 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [the, 5]
+9127 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["cow"]
+9128 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["cow"]
+cow 2
+9128 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [cow, 2]
+9128 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["jumped"]
+9129 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["jumped"]
+jumped 2
+9129 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [jumped, 2]
+9129 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["over"]
+9130 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["over"]
+over 2
+9130 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [over, 2]
+9131 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["the"]
+9131 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["the"]
+the 6
+9132 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [the, 6]
+9132 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["moon"]
+9133 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["moon"]
+moon 2
+9133 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [moon, 2]
+9225 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+9226 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+9228 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["four"]
+9230 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["score"]
+9231 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["four"]
+four 3
+9232 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["and"]
+9232 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [four, 3]
+9232 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["score"]
+score 3
+9232 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [score, 3]
+9232 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["seven"]
+9233 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["and"]
+and 3
+9233 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [and, 3]
+9233 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["seven"]
+seven 3
+9233 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [seven, 3]
+9233 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["years"]
+9234 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["years"]
+years 3
+9234 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["ago"]
+9234 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [years, 3]
+9235 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["ago"]
+ago 3
+9236 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [ago, 3]
+9326 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+9326 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+9328 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["snow"]
+9328 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["snow"]
+snow 1
+9328 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [snow, 1]
+9328 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["white"]
+9329 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["white"]
+white 1
+9329 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [white, 1]
+9329 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["and"]
+9330 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["the"]
+9331 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["seven"]
+9332 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["dwarfs"]
+9338 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["and"]
+and 4
+9338 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [and, 4]
+9339 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["the"]
+the 7
+9339 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [the, 7]
+9340 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["seven"]
+seven 4
+9340 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [seven, 4]
+9340 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["dwarfs"]
+dwarfs 1
+9340 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [dwarfs, 1]
+9426 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+9438 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+9439 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["snow"]
+9440 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["white"]
+9441 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["and"]
+9442 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["snow"]
+snow 2
+9442 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [snow, 2]
+9442 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["white"]
+white 2
+9442 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [white, 2]
+9443 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["and"]
+and 5
+9443 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [and, 5]
+9443 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["the"]
+9444 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["the"]
+the 8
+9445 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [the, 8]
+9445 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["seven"]
+9445 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["seven"]
+seven 5
+9445 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [seven, 5]
+9446 [Thread-19] INFO  backtype.storm.daemon.task - Emitting: split default ["dwarfs"]
+9446 [Thread-9-count] INFO  backtype.storm.daemon.executor - Processing received message source: split:3, stream: default, id: {}, ["dwarfs"]
+dwarfs 2
+9447 [Thread-9-count] INFO  backtype.storm.daemon.task - Emitting: count default [dwarfs, 2]
+9527 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [an apple a day keeps the doctor away]
+9527 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [an apple a day keeps the doctor away]
+9627 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+9630 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+9730 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+9731 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+9831 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+9831 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+9931 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+9932 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+10032 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+10033 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+10132 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [an apple a day keeps the doctor away]
+10133 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [an apple a day keeps the doctor away]
+10233 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+10234 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+10334 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+10335 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+10435 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+10436 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+10536 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+10536 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+10636 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+10637 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+10737 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+10738 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+10838 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [an apple a day keeps the doctor away]
+10839 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [an apple a day keeps the doctor away]
+10939 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+10939 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+11039 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+11040 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+11140 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+11141 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+11241 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+11241 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+11341 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+11342 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+11442 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [an apple a day keeps the doctor away]
+11443 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [an apple a day keeps the doctor away]
+11543 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+11544 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+11644 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+11645 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+11745 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+11745 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+11845 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+11846 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+11946 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+11946 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+12046 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+12047 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+12147 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+12148 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+12248 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+12249 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+12348 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+12349 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+12449 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [an apple a day keeps the doctor away]
+12450 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [an apple a day keeps the doctor away]
+12550 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+12551 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+12651 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [an apple a day keeps the doctor away]
+12652 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [an apple a day keeps the doctor away]
+12752 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+12753 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+12853 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+12854 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+12953 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+12954 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+13054 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+13055 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+13155 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+13156 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+13256 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+13256 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+13356 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+13357 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+13457 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+13458 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+13558 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [an apple a day keeps the doctor away]
+13558 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [an apple a day keeps the doctor away]
+13658 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+13659 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+13759 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+13760 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+13860 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+13861 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+13960 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+13961 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+14061 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+14062 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+14162 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+14163 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+14263 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+14264 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+14363 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+14364 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+14464 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+14465 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+14565 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+14565 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+14665 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+14666 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+14766 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+14767 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+14867 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+14868 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+14967 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+14968 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+15068 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+15069 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+15169 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+15169 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+15269 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+15270 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+15370 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+15371 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+15471 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+15471 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+15571 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [four score and seven years ago]
+15572 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [four score and seven years ago]
+15672 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+15673 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+15773 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+15774 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+15874 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [i am at two with nature]
+15875 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [i am at two with nature]
+15975 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [snow white and the seven dwarfs]
+15976 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [snow white and the seven dwarfs]
+16076 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+16077 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+16177 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [an apple a day keeps the doctor away]
+16178 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [an apple a day keeps the doctor away]
+16243 [main] INFO  backtype.storm.daemon.nimbus - Shutting down master
+16247 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae8940001
+16253 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae8940001 closed
+16253 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+16254 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46494 which had sessionid 0x14ddd5ae8940001
+16255 [main] INFO  backtype.storm.daemon.nimbus - Shut down master
+16256 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae8940003
+16264 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae8940003 closed
+16264 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+16264 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46496 which had sessionid 0x14ddd5ae8940003
+16266 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae8940005
+16275 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae8940005 closed
+16275 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+16275 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46498 which had sessionid 0x14ddd5ae8940005
+16276 [main] INFO  backtype.storm.daemon.supervisor - Shutting down supervisor 7d8ad02c-01a4-430c-b226-2f0ac82b6fa3
+16277 [Thread-3] INFO  backtype.storm.event - Event manager interrupted
+16277 [Thread-13-spout] INFO  backtype.storm.daemon.task - Emitting: spout default [the cow jumped over the moon]
+16278 [Thread-4] INFO  backtype.storm.event - Event manager interrupted
+16279 [Thread-11-split] INFO  backtype.storm.daemon.executor - Processing received message source: spout:4, stream: default, id: {}, [the cow jumped over the moon]
+16279 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae8940007
+16286 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae8940007 closed
+16286 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+16288 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46500 which had sessionid 0x14ddd5ae8940007
+16288 [main] INFO  backtype.storm.daemon.supervisor - Shutting down fc00918a-7f61-473d-93c1-1e8653e0f874:58885bef-8566-4c47-aa4a-a0213a5d6e03
+16288 [main] INFO  backtype.storm.process-simulator - Killing process 34f47852-d440-4e11-a4b8-db5b6ab8f2a8
+16289 [main] INFO  backtype.storm.daemon.worker - Shutting down worker wordcount-1-1433937834 fc00918a-7f61-473d-93c1-1e8653e0f874 1027
+16289 [main] INFO  backtype.storm.daemon.worker - Shutting down receive thread
+16289 [main] INFO  backtype.storm.messaging.loader - Shutting down receiving-thread: [wordcount-1-1433937834, 1027]
+16290 [main] INFO  backtype.storm.messaging.loader - Waiting for receiving-thread:[wordcount-1-1433937834, 1027] to die
+16290 [Thread-7-worker-receiver-thread-0] INFO  backtype.storm.messaging.loader - Receiving-thread:[wordcount-1-1433937834, 1027] received shutdown notice
+16292 [main] INFO  backtype.storm.messaging.loader - Shutdown receiving-thread: [wordcount-1-1433937834, 1027]
+16292 [main] INFO  backtype.storm.daemon.worker - Shut down receive thread
+16292 [main] INFO  backtype.storm.daemon.worker - Terminating messaging context
+16292 [main] INFO  backtype.storm.daemon.worker - Shutting down executors
+16293 [main] INFO  backtype.storm.daemon.executor - Shutting down executor count:[2 2]
+16294 [Thread-9-count] INFO  backtype.storm.util - Async loop interrupted!
+16294 [Thread-8-disruptor-executor[2 2]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+16298 [main] INFO  backtype.storm.daemon.executor - Shut down executor count:[2 2]
+16298 [main] INFO  backtype.storm.daemon.executor - Shutting down executor split:[3 3]
+16299 [Thread-11-split] INFO  backtype.storm.util - Async loop interrupted!
+16299 [Thread-10-disruptor-executor[3 3]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+16301 [main] INFO  backtype.storm.daemon.executor - Shut down executor split:[3 3]
+16301 [main] INFO  backtype.storm.daemon.executor - Shutting down executor spout:[4 4]
+16301 [Thread-12-disruptor-executor[4 4]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+16302 [Thread-13-spout] INFO  backtype.storm.util - Async loop interrupted!
+16303 [main] INFO  backtype.storm.daemon.executor - Shut down executor spout:[4 4]
+16303 [main] INFO  backtype.storm.daemon.executor - Shutting down executor __system:[-1 -1]
+16303 [Thread-15-__system] INFO  backtype.storm.util - Async loop interrupted!
+16304 [Thread-14-disruptor-executor[-1 -1]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+16304 [main] INFO  backtype.storm.daemon.executor - Shut down executor __system:[-1 -1]
+16304 [main] INFO  backtype.storm.daemon.executor - Shutting down executor __acker:[1 1]
+16305 [Thread-17-__acker] INFO  backtype.storm.util - Async loop interrupted!
+16305 [Thread-16-disruptor-executor[1 1]-send-queue] INFO  backtype.storm.util - Async loop interrupted!
+16306 [main] INFO  backtype.storm.daemon.executor - Shut down executor __acker:[1 1]
+16306 [main] INFO  backtype.storm.daemon.worker - Shut down executors
+16306 [main] INFO  backtype.storm.daemon.worker - Shutting down transfer thread
+16306 [Thread-18-disruptor-worker-transfer-queue] INFO  backtype.storm.util - Async loop interrupted!
+16307 [main] INFO  backtype.storm.daemon.worker - Shut down transfer thread
+16308 [main] INFO  backtype.storm.daemon.worker - Shutting down default resources
+16308 [Thread-19] ERROR backtype.storm.task.ShellBolt - Halting process: ShellBolt died.
+java.lang.RuntimeException: Acked a non-existent or already acked/failed id: -4079990539893076778
+	at backtype.storm.task.ShellBolt.handleAck(ShellBolt.java:174) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.task.ShellBolt.access$900(ShellBolt.java:69) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.task.ShellBolt$BoltReaderRunnable.run(ShellBolt.java:327) ~[storm-core-0.9.5.jar:0.9.5]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_65]
+16308 [main] INFO  backtype.storm.daemon.worker - Shut down default resources
+16309 [Thread-19] ERROR backtype.storm.daemon.executor - 
+java.lang.RuntimeException: Acked a non-existent or already acked/failed id: -4079990539893076778
+	at backtype.storm.task.ShellBolt.handleAck(ShellBolt.java:174) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.task.ShellBolt.access$900(ShellBolt.java:69) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.task.ShellBolt$BoltReaderRunnable.run(ShellBolt.java:327) ~[storm-core-0.9.5.jar:0.9.5]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_65]
+16311 [Thread-19] ERROR org.apache.storm.zookeeper.server.NIOServerCnxnFactory - Thread Thread[Thread-19,5,main] died
+java.lang.RuntimeException: java.lang.InterruptedException
+	at backtype.storm.util$wrap_in_runtime.invoke(util.clj:44) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.zookeeper$exists_node_QMARK_$fn__1826.invoke(zookeeper.clj:102) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.zookeeper$exists_node_QMARK_.invoke(zookeeper.clj:98) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.zookeeper$mkdirs.invoke(zookeeper.clj:114) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.cluster$mk_distributed_cluster_state$reify__2073.mkdirs(cluster.clj:119) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.cluster$mk_storm_cluster_state$reify__2530.report_error(cluster.clj:397) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.daemon.executor$throttled_report_error_fn$fn__6427.invoke(executor.clj:180) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.daemon.executor$fn__6647$fn$reify__6692.reportError(executor.clj:738) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.task.OutputCollector.reportError(OutputCollector.java:223) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.task.ShellBolt.die(ShellBolt.java:283) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.task.ShellBolt.access$400(ShellBolt.java:69) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.task.ShellBolt$BoltReaderRunnable.run(ShellBolt.java:341) ~[storm-core-0.9.5.jar:0.9.5]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.7.0_65]
+Caused by: java.lang.InterruptedException: null
+	at java.lang.Object.wait(Native Method) ~[na:1.7.0_65]
+	at java.lang.Object.wait(Object.java:503) ~[na:1.7.0_65]
+	at org.apache.storm.zookeeper.ClientCnxn.submitRequest(ClientCnxn.java:1342) ~[storm-core-0.9.5.jar:0.9.5]
+	at org.apache.storm.zookeeper.ZooKeeper.exists(ZooKeeper.java:1040) ~[storm-core-0.9.5.jar:0.9.5]
+	at org.apache.storm.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:172) ~[storm-core-0.9.5.jar:0.9.5]
+	at org.apache.storm.curator.framework.imps.ExistsBuilderImpl$2.call(ExistsBuilderImpl.java:161) ~[storm-core-0.9.5.jar:0.9.5]
+	at org.apache.storm.curator.RetryLoop.callWithRetry(RetryLoop.java:107) ~[storm-core-0.9.5.jar:0.9.5]
+	at org.apache.storm.curator.framework.imps.ExistsBuilderImpl.pathInForeground(ExistsBuilderImpl.java:157) ~[storm-core-0.9.5.jar:0.9.5]
+	at org.apache.storm.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:148) ~[storm-core-0.9.5.jar:0.9.5]
+	at org.apache.storm.curator.framework.imps.ExistsBuilderImpl.forPath(ExistsBuilderImpl.java:36) ~[storm-core-0.9.5.jar:0.9.5]
+	at backtype.storm.zookeeper$exists_node_QMARK_$fn__1826.invoke(zookeeper.clj:101) ~[storm-core-0.9.5.jar:0.9.5]
+	... 11 common frames omitted
+16320 [main] INFO  backtype.storm.daemon.worker - Disconnecting from storm cluster state context
+16321 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae894000b
+16331 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae894000b closed
+16331 [Thread-6-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+16331 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46504 which had sessionid 0x14ddd5ae894000b
+16332 [main] INFO  backtype.storm.daemon.worker - Shut down worker wordcount-1-1433937834 fc00918a-7f61-473d-93c1-1e8653e0f874 1027
+16345 [main] INFO  backtype.storm.util - Error when trying to kill 5971. Process is probably already dead.
+17349 [main] INFO  backtype.storm.util - Error when trying to kill 5971. Process is probably already dead.
+17354 [main] INFO  backtype.storm.daemon.supervisor - Shut down fc00918a-7f61-473d-93c1-1e8653e0f874:58885bef-8566-4c47-aa4a-a0213a5d6e03
+17354 [main] INFO  backtype.storm.daemon.supervisor - Shutting down supervisor fc00918a-7f61-473d-93c1-1e8653e0f874
+17355 [Thread-5] INFO  backtype.storm.event - Event manager interrupted
+17355 [Thread-6] INFO  backtype.storm.event - Event manager interrupted
+17357 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Processed session termination for sessionid: 0x14ddd5ae8940009
+17364 [main] INFO  org.apache.storm.zookeeper.ZooKeeper - Session: 0x14ddd5ae8940009 closed
+17364 [main-EventThread] INFO  org.apache.storm.zookeeper.ClientCnxn - EventThread shut down
+17365 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxn - Closed socket connection for client /127.0.0.1:46502 which had sessionid 0x14ddd5ae8940009
+17365 [main] INFO  backtype.storm.testing - Shutting down in process zookeeper
+17365 [NIOServerCxn.Factory:0.0.0.0/0.0.0.0:2000] INFO  org.apache.storm.zookeeper.server.NIOServerCnxnFactory - NIOServerCnxn factory exited run method
+17366 [main] INFO  org.apache.storm.zookeeper.server.ZooKeeperServer - shutting down
+17366 [main] INFO  org.apache.storm.zookeeper.server.SessionTrackerImpl - Shutting down
+17366 [main] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - Shutting down
+17366 [main] INFO  org.apache.storm.zookeeper.server.SyncRequestProcessor - Shutting down
+17366 [ProcessThread(sid:0 cport:-1):] INFO  org.apache.storm.zookeeper.server.PrepRequestProcessor - PrepRequestProcessor exited loop!
+17366 [SyncThread:0] INFO  org.apache.storm.zookeeper.server.SyncRequestProcessor - SyncRequestProcessor exited!
+17366 [main] INFO  org.apache.storm.zookeeper.server.FinalRequestProcessor - shutdown of request processor complete
+17367 [main] INFO  backtype.storm.testing - Done shutting down in process zookeeper
+17367 [main] INFO  backtype.storm.testing - Deleting temporary path /tmp/bd06ac69-8a5c-4677-8c20-26f2039638fa
+17370 [main] INFO  backtype.storm.testing - Deleting temporary path /tmp/6acb520d-d612-432c-acb6-ae99d35731e7
+17371 [main] INFO  backtype.storm.testing - Deleting temporary path /tmp/819fdb60-1cfa-4d23-8ae3-1cc6382a6029
+17373 [main] INFO  backtype.storm.testing - Deleting temporary path /tmp/5a411017-51ba-481c-bcc9-2b3b13d2adb8
+19093 [SessionTracker] INFO  org.apache.storm.zookeeper.server.SessionTrackerImpl - SessionTrackerImpl exited loop!
